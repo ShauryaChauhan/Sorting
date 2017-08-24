@@ -32,6 +32,7 @@ public class Selection_Sort {
         int[] arr2 = doSelectionSort(arr1);
         for(int i:arr2){
             System.out.print(i);
+            System.out.println();
             System.out.print(", ");
         }
     }
