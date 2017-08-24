@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class Selection_Sort {
 
 	public static int[] doSelectionSort(int array[]){
@@ -18,8 +18,17 @@ public class Selection_Sort {
 	}
      
     public static void main(String a[]){
-         
-        int[] arr1 = {44,71,33,51,29,21};
+    	Scanner sc=new Scanner(System.in);
+        int n; 
+        System.out.println("Enter the number of integers:");
+        n=sc.nextInt();
+        
+        
+        int[] arr1 =new int[n];
+        for(int i=1;i<n;i++)
+        {
+        	arr1[i]=sc.nextInt();
+        }
         int[] arr2 = doSelectionSort(arr1);
         for(int i:arr2){
             System.out.print(i);
