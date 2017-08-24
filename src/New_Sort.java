@@ -33,7 +33,7 @@ public class New_Sort
     }
   
     public static void main(String[] args) {
-        int array2[] = { 19, 12, 95, 64, 23, 112, 34, 10, 14 };
+        int array2[] = { 19, 12, 95, 64, 23, 112, 34, 10, 14 ,19};
         bubble_sort(array2);
   
     }
